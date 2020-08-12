@@ -2,6 +2,10 @@ package sgh;
 
 public class PrimeNumbers {
 
+package sgh;
+
+public class PrimeNumbers {
+
     public static void primes(int n) {
 
         int counter = 0;
@@ -24,6 +28,7 @@ public class PrimeNumbers {
                     primeNumbers = primeNumbers + i + ", ";
                 } else {
                     primeNumbers = primeNumbers + i;
+                    System.out.println(primeNumbers);
                 }
             }
             i++;
@@ -32,9 +37,8 @@ public class PrimeNumbers {
         System.out.println(primeNumbers);
     }
 
-
     public static void main(String[] args) {
-                primes(4);
+        primes(4);
 
     }
 }
